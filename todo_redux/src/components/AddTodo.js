@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import {useDispatch} from "react-redux"
 import { addTodo } from '../features/todoSlice'
+import "../components/addTodo.css"
 
 const AddTodo = () => {
 
@@ -19,8 +20,9 @@ const AddTodo = () => {
       placeholder='enter task'
       value={input}
       onChange={(e)=>setInput(e.target.value)}
+      className='addinput'
       ></input>
-      <button>Add Todo</button>
+      <button className='addbtn'>Add Todo</button>
     </form>
   )
 }

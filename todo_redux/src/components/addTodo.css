@@ -1,0 +1,15 @@
+.addtodo{
+    background-color: rgb(178, 243, 135);
+    /* height:50px; */
+    padding:20px;
+    /* margin: 20px; */
+}
+.addinput{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.addbtn{
+    padding: 10px;
+    /* font-size: 16px; */
+}
